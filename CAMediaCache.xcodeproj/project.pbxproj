@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D556C629242968A600E518B2 /* CAMediaCache-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D556C62A242968A600E518B2 /* Build configuration list for PBXAggregateTarget "CAMediaCache-Universal" */;
+			buildPhases = (
+				D556C62D242968B700E518B2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "CAMediaCache-Universal";
+			productName = "CAMediaCache-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D556C5F3242966CA00E518B2 /* CAMediaCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C5F1242966CA00E518B2 /* CAMediaCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D556C6122429670B00E518B2 /* VICacheSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C5FA2429670A00E518B2 /* VICacheSessionManager.m */; };
+		D556C6132429670B00E518B2 /* VICacheConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C5FB2429670A00E518B2 /* VICacheConfiguration.h */; };
+		D556C6142429670B00E518B2 /* VICacheAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C5FC2429670A00E518B2 /* VICacheAction.m */; };
+		D556C6152429670B00E518B2 /* NSString+VIMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C5FD2429670A00E518B2 /* NSString+VIMD5.m */; };
+		D556C6162429670B00E518B2 /* VIMediaCacheWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C5FE2429670B00E518B2 /* VIMediaCacheWorker.m */; };
+		D556C6172429670B00E518B2 /* VICacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C5FF2429670B00E518B2 /* VICacheManager.m */; };
+		D556C6182429670B00E518B2 /* VICacheConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C6002429670B00E518B2 /* VICacheConfiguration.m */; };
+		D556C6192429670B00E518B2 /* VICacheSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C6012429670B00E518B2 /* VICacheSessionManager.h */; };
+		D556C61A2429670B00E518B2 /* VICacheAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C6022429670B00E518B2 /* VICacheAction.h */; };
+		D556C61B2429670B00E518B2 /* VICacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C6032429670B00E518B2 /* VICacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D556C61C2429670B00E518B2 /* VIMediaCacheWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C6042429670B00E518B2 /* VIMediaCacheWorker.h */; };
+		D556C61D2429670B00E518B2 /* NSString+VIMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C6052429670B00E518B2 /* NSString+VIMD5.h */; };
+		D556C61F2429670B00E518B2 /* VIResourceLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C6082429670B00E518B2 /* VIResourceLoaderManager.m */; };
+		D556C6202429670B00E518B2 /* VIResourceLoadingRequestWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C6092429670B00E518B2 /* VIResourceLoadingRequestWorker.h */; };
+		D556C6212429670B00E518B2 /* VIContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C60A2429670B00E518B2 /* VIContentInfo.m */; };
+		D556C6222429670B00E518B2 /* VIMediaDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C60B2429670B00E518B2 /* VIMediaDownloader.m */; };
+		D556C6232429670B00E518B2 /* VIResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C60C2429670B00E518B2 /* VIResourceLoader.h */; };
+		D556C6242429670B00E518B2 /* VIResourceLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C60D2429670B00E518B2 /* VIResourceLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D556C6252429670B00E518B2 /* VIResourceLoadingRequestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C60E2429670B00E518B2 /* VIResourceLoadingRequestWorker.m */; };
+		D556C6262429670B00E518B2 /* VIMediaDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C60F2429670B00E518B2 /* VIMediaDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D556C6272429670B00E518B2 /* VIContentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D556C6102429670B00E518B2 /* VIContentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D556C6282429670B00E518B2 /* VIResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D556C6112429670B00E518B2 /* VIResourceLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D556C5EE242966CA00E518B2 /* CAMediaCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAMediaCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D556C5F1242966CA00E518B2 /* CAMediaCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMediaCache.h; sourceTree = "<group>"; };
+		D556C5F2242966CA00E518B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D556C5FA2429670A00E518B2 /* VICacheSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheSessionManager.m; sourceTree = "<group>"; };
+		D556C5FB2429670A00E518B2 /* VICacheConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheConfiguration.h; sourceTree = "<group>"; };
+		D556C5FC2429670A00E518B2 /* VICacheAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheAction.m; sourceTree = "<group>"; };
+		D556C5FD2429670A00E518B2 /* NSString+VIMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VIMD5.m"; sourceTree = "<group>"; };
+		D556C5FE2429670B00E518B2 /* VIMediaCacheWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMediaCacheWorker.m; sourceTree = "<group>"; };
+		D556C5FF2429670B00E518B2 /* VICacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheManager.m; sourceTree = "<group>"; };
+		D556C6002429670B00E518B2 /* VICacheConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheConfiguration.m; sourceTree = "<group>"; };
+		D556C6012429670B00E518B2 /* VICacheSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheSessionManager.h; sourceTree = "<group>"; };
+		D556C6022429670B00E518B2 /* VICacheAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheAction.h; sourceTree = "<group>"; };
+		D556C6032429670B00E518B2 /* VICacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheManager.h; sourceTree = "<group>"; };
+		D556C6042429670B00E518B2 /* VIMediaCacheWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMediaCacheWorker.h; sourceTree = "<group>"; };
+		D556C6052429670B00E518B2 /* NSString+VIMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VIMD5.h"; sourceTree = "<group>"; };
+		D556C6082429670B00E518B2 /* VIResourceLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIResourceLoaderManager.m; sourceTree = "<group>"; };
+		D556C6092429670B00E518B2 /* VIResourceLoadingRequestWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIResourceLoadingRequestWorker.h; sourceTree = "<group>"; };
+		D556C60A2429670B00E518B2 /* VIContentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIContentInfo.m; sourceTree = "<group>"; };
+		D556C60B2429670B00E518B2 /* VIMediaDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMediaDownloader.m; sourceTree = "<group>"; };
+		D556C60C2429670B00E518B2 /* VIResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIResourceLoader.h; sourceTree = "<group>"; };
+		D556C60D2429670B00E518B2 /* VIResourceLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIResourceLoaderManager.h; sourceTree = "<group>"; };
+		D556C60E2429670B00E518B2 /* VIResourceLoadingRequestWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIResourceLoadingRequestWorker.m; sourceTree = "<group>"; };
+		D556C60F2429670B00E518B2 /* VIMediaDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMediaDownloader.h; sourceTree = "<group>"; };
+		D556C6102429670B00E518B2 /* VIContentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIContentInfo.h; sourceTree = "<group>"; };
+		D556C6112429670B00E518B2 /* VIResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIResourceLoader.m; sourceTree = "<group>"; };
+		D556C62E24296A3F00E518B2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D556C5EB242966CA00E518B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D556C5E4242966CA00E518B2 = {
+			isa = PBXGroup;
+			children = (
+				D556C62E24296A3F00E518B2 /* .gitignore */,
+				D556C5F0242966CA00E518B2 /* CAMediaCache */,
+				D556C5EF242966CA00E518B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D556C5EF242966CA00E518B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D556C5EE242966CA00E518B2 /* CAMediaCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D556C5F0242966CA00E518B2 /* CAMediaCache */ = {
+			isa = PBXGroup;
+			children = (
+				D556C5F1242966CA00E518B2 /* CAMediaCache.h */,
+				D556C5F2242966CA00E518B2 /* Info.plist */,
+				D556C5F92429670A00E518B2 /* Cache */,
+				D556C6072429670B00E518B2 /* ResourceLoader */,
+			);
+			path = CAMediaCache;
+			sourceTree = "<group>";
+		};
+		D556C5F92429670A00E518B2 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				D556C5FA2429670A00E518B2 /* VICacheSessionManager.m */,
+				D556C5FB2429670A00E518B2 /* VICacheConfiguration.h */,
+				D556C5FC2429670A00E518B2 /* VICacheAction.m */,
+				D556C5FD2429670A00E518B2 /* NSString+VIMD5.m */,
+				D556C5FE2429670B00E518B2 /* VIMediaCacheWorker.m */,
+				D556C5FF2429670B00E518B2 /* VICacheManager.m */,
+				D556C6002429670B00E518B2 /* VICacheConfiguration.m */,
+				D556C6012429670B00E518B2 /* VICacheSessionManager.h */,
+				D556C6022429670B00E518B2 /* VICacheAction.h */,
+				D556C6032429670B00E518B2 /* VICacheManager.h */,
+				D556C6042429670B00E518B2 /* VIMediaCacheWorker.h */,
+				D556C6052429670B00E518B2 /* NSString+VIMD5.h */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		D556C6072429670B00E518B2 /* ResourceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				D556C6082429670B00E518B2 /* VIResourceLoaderManager.m */,
+				D556C6092429670B00E518B2 /* VIResourceLoadingRequestWorker.h */,
+				D556C60A2429670B00E518B2 /* VIContentInfo.m */,
+				D556C60B2429670B00E518B2 /* VIMediaDownloader.m */,
+				D556C60C2429670B00E518B2 /* VIResourceLoader.h */,
+				D556C60D2429670B00E518B2 /* VIResourceLoaderManager.h */,
+				D556C60E2429670B00E518B2 /* VIResourceLoadingRequestWorker.m */,
+				D556C60F2429670B00E518B2 /* VIMediaDownloader.h */,
+				D556C6102429670B00E518B2 /* VIContentInfo.h */,
+				D556C6112429670B00E518B2 /* VIResourceLoader.m */,
+			);
+			path = ResourceLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D556C5E9242966CA00E518B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D556C5F3242966CA00E518B2 /* CAMediaCache.h in Headers */,
+				D556C6202429670B00E518B2 /* VIResourceLoadingRequestWorker.h in Headers */,
+				D556C6272429670B00E518B2 /* VIContentInfo.h in Headers */,
+				D556C6262429670B00E518B2 /* VIMediaDownloader.h in Headers */,
+				D556C6242429670B00E518B2 /* VIResourceLoaderManager.h in Headers */,
+				D556C61B2429670B00E518B2 /* VICacheManager.h in Headers */,
+				D556C6192429670B00E518B2 /* VICacheSessionManager.h in Headers */,
+				D556C61A2429670B00E518B2 /* VICacheAction.h in Headers */,
+				D556C61D2429670B00E518B2 /* NSString+VIMD5.h in Headers */,
+				D556C61C2429670B00E518B2 /* VIMediaCacheWorker.h in Headers */,
+				D556C6232429670B00E518B2 /* VIResourceLoader.h in Headers */,
+				D556C6132429670B00E518B2 /* VICacheConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D556C5ED242966CA00E518B2 /* CAMediaCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D556C5F6242966CA00E518B2 /* Build configuration list for PBXNativeTarget "CAMediaCache" */;
+			buildPhases = (
+				D556C5E9242966CA00E518B2 /* Headers */,
+				D556C5EA242966CA00E518B2 /* Sources */,
+				D556C5EB242966CA00E518B2 /* Frameworks */,
+				D556C5EC242966CA00E518B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAMediaCache;
+			productName = CAMediaCache;
+			productReference = D556C5EE242966CA00E518B2 /* CAMediaCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D556C5E5242966CA00E518B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = pictune;
+				TargetAttributes = {
+					D556C5ED242966CA00E518B2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D556C629242968A600E518B2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D556C5E8242966CA00E518B2 /* Build configuration list for PBXProject "CAMediaCache" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D556C5E4242966CA00E518B2;
+			productRefGroup = D556C5EF242966CA00E518B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D556C5ED242966CA00E518B2 /* CAMediaCache */,
+				D556C629242968A600E518B2 /* CAMediaCache-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D556C5EC242966CA00E518B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D556C62D242968B700E518B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D556C5EA242966CA00E518B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D556C6222429670B00E518B2 /* VIMediaDownloader.m in Sources */,
+				D556C6212429670B00E518B2 /* VIContentInfo.m in Sources */,
+				D556C6162429670B00E518B2 /* VIMediaCacheWorker.m in Sources */,
+				D556C6122429670B00E518B2 /* VICacheSessionManager.m in Sources */,
+				D556C6282429670B00E518B2 /* VIResourceLoader.m in Sources */,
+				D556C6252429670B00E518B2 /* VIResourceLoadingRequestWorker.m in Sources */,
+				D556C6142429670B00E518B2 /* VICacheAction.m in Sources */,
+				D556C6172429670B00E518B2 /* VICacheManager.m in Sources */,
+				D556C6182429670B00E518B2 /* VICacheConfiguration.m in Sources */,
+				D556C61F2429670B00E518B2 /* VIResourceLoaderManager.m in Sources */,
+				D556C6152429670B00E518B2 /* NSString+VIMD5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D556C5F4242966CA00E518B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D556C5F5242966CA00E518B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D556C5F7242966CA00E518B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PMNJ378H98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CAMediaCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NewView.CAMediaCache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		D556C5F8242966CA00E518B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PMNJ378H98;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CAMediaCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NewView.CAMediaCache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		D556C62B242968A600E518B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMNJ378H98;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D556C62C242968A600E518B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMNJ378H98;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D556C5E8242966CA00E518B2 /* Build configuration list for PBXProject "CAMediaCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D556C5F4242966CA00E518B2 /* Debug */,
+				D556C5F5242966CA00E518B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D556C5F6242966CA00E518B2 /* Build configuration list for PBXNativeTarget "CAMediaCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D556C5F7242966CA00E518B2 /* Debug */,
+				D556C5F8242966CA00E518B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D556C62A242968A600E518B2 /* Build configuration list for PBXAggregateTarget "CAMediaCache-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D556C62B242968A600E518B2 /* Debug */,
+				D556C62C242968A600E518B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D556C5E5242966CA00E518B2 /* Project object */;
+}
