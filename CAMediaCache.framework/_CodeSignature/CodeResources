@@ -32,6 +32,34 @@
 		<data>
 		ki8GKyeIuzl2TdQlQOh5DDalipI=
 		</data>
+		<key>PrivateHeaders/NSString+VIMD5.h</key>
+		<data>
+		C78rQURxQQaAt37dC/wv2vDhP7A=
+		</data>
+		<key>PrivateHeaders/VICacheAction.h</key>
+		<data>
+		wtlyOOGwNk8OQSqJQGbzqdlSxto=
+		</data>
+		<key>PrivateHeaders/VICacheConfiguration.h</key>
+		<data>
+		USlbV6P2O5/ERzSDeOAC0qKcTq8=
+		</data>
+		<key>PrivateHeaders/VICacheSessionManager.h</key>
+		<data>
+		WjLZdzOseWShANfTEcUdghmaG1g=
+		</data>
+		<key>PrivateHeaders/VIMediaCacheWorker.h</key>
+		<data>
+		VorpDgrhlPco1T0SdEXBB1FviBs=
+		</data>
+		<key>PrivateHeaders/VIResourceLoader.h</key>
+		<data>
+		PVAzlpYs8Lz+UWMP17Cu4w7dUA8=
+		</data>
+		<key>PrivateHeaders/VIResourceLoadingRequestWorker.h</key>
+		<data>
+		QaHsl8lMRCQx+llCgOmYO3VxJp8=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -75,6 +103,55 @@
 			<key>hash2</key>
 			<data>
 			dnsMb2T/ehJMSXUijYH5HKQp6yY3JSi1/3uT6omWU6w=
+			</data>
+		</dict>
+		<key>PrivateHeaders/NSString+VIMD5.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xYZzF6+ZRwAeRJnarUvofVs9rsGzbU4YVrXSVerG4RM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/VICacheAction.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FKYlP1vGQi8Ddw/AV3Bd0sx5AbIGu+IZbVtPLK/XQD8=
+			</data>
+		</dict>
+		<key>PrivateHeaders/VICacheConfiguration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PCcvp3o6D56j4i5QkdcrxCETiGYem4Dz9Rgq1xEydmI=
+			</data>
+		</dict>
+		<key>PrivateHeaders/VICacheSessionManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			awzO349jrA8xU6JHfbTukFLPntb2IM3Rlr0oDW58PQM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/VIMediaCacheWorker.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wIreseOhpMPhEV7E460wqtvj7+KJmtHu1SOFqG234HU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/VIResourceLoader.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3jGtAxDz9pdVDDBLDboZrevK7qRJw3Xoo1pyx2AVlWQ=
+			</data>
+		</dict>
+		<key>PrivateHeaders/VIResourceLoadingRequestWorker.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AhFFE/HrMm6+nJ6cN2CIeLcmBmQGkWb/VsT4MbvGadg=
 			</data>
 		</dict>
 	</dict>
