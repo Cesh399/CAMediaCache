@@ -8,21 +8,49 @@
 		<data>
 		wWrwaxuAjfm0JuiheQE76gIxTmc=
 		</data>
+		<key>Headers/NSString+VIMD5.h</key>
+		<data>
+		C78rQURxQQaAt37dC/wv2vDhP7A=
+		</data>
+		<key>Headers/VICacheAction.h</key>
+		<data>
+		wtlyOOGwNk8OQSqJQGbzqdlSxto=
+		</data>
+		<key>Headers/VICacheConfiguration.h</key>
+		<data>
+		USlbV6P2O5/ERzSDeOAC0qKcTq8=
+		</data>
 		<key>Headers/VICacheManager.h</key>
 		<data>
 		lSJsUOhR5DL2He+KESEUj1OOdSs=
+		</data>
+		<key>Headers/VICacheSessionManager.h</key>
+		<data>
+		WjLZdzOseWShANfTEcUdghmaG1g=
 		</data>
 		<key>Headers/VIContentInfo.h</key>
 		<data>
 		9XUUDgtuEw5MPapjij0cDjPSKcU=
 		</data>
+		<key>Headers/VIMediaCacheWorker.h</key>
+		<data>
+		VorpDgrhlPco1T0SdEXBB1FviBs=
+		</data>
 		<key>Headers/VIMediaDownloader.h</key>
 		<data>
 		+XwCR9f9hBbPbnRt5fIhYylx2o4=
 		</data>
+		<key>Headers/VIResourceLoader.h</key>
+		<data>
+		PVAzlpYs8Lz+UWMP17Cu4w7dUA8=
+		</data>
 		<key>Headers/VIResourceLoaderManager.h</key>
 		<data>
 		XLJ9Wdf3t7KWOH7BCvqlLYp1SUk=
+		</data>
+		<key>Headers/VIResourceLoadingRequestWorker.h</key>
+		<data>
+		QaHsl8lMRCQx+llCgOmYO3VxJp8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -70,11 +98,39 @@
 			E9DOTLHyRk+CCe7LtHRezVS8VaY3c4tK28sccQvFpBA=
 			</data>
 		</dict>
+		<key>Headers/NSString+VIMD5.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xYZzF6+ZRwAeRJnarUvofVs9rsGzbU4YVrXSVerG4RM=
+			</data>
+		</dict>
+		<key>Headers/VICacheAction.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FKYlP1vGQi8Ddw/AV3Bd0sx5AbIGu+IZbVtPLK/XQD8=
+			</data>
+		</dict>
+		<key>Headers/VICacheConfiguration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PCcvp3o6D56j4i5QkdcrxCETiGYem4Dz9Rgq1xEydmI=
+			</data>
+		</dict>
 		<key>Headers/VICacheManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			kMnwUd2/1h+EqCRhy3BhZ6NbbTBKtS0+0BHnGVx//Rw=
+			</data>
+		</dict>
+		<key>Headers/VICacheSessionManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			awzO349jrA8xU6JHfbTukFLPntb2IM3Rlr0oDW58PQM=
 			</data>
 		</dict>
 		<key>Headers/VIContentInfo.h</key>
@@ -84,6 +140,13 @@
 			uS1P7hqbYxjPMNhbxxyTvFa1sYUrYVq2nekBmw3wLDI=
 			</data>
 		</dict>
+		<key>Headers/VIMediaCacheWorker.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wIreseOhpMPhEV7E460wqtvj7+KJmtHu1SOFqG234HU=
+			</data>
+		</dict>
 		<key>Headers/VIMediaDownloader.h</key>
 		<dict>
 			<key>hash2</key>
@@ -91,11 +154,25 @@
 			3oH+zxsJOEPnZ+QVoTXoW9vqTuiSQ4YkwpVRr4qGEzM=
 			</data>
 		</dict>
+		<key>Headers/VIResourceLoader.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3jGtAxDz9pdVDDBLDboZrevK7qRJw3Xoo1pyx2AVlWQ=
+			</data>
+		</dict>
 		<key>Headers/VIResourceLoaderManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Umz7p/8sMxARarGXxgOZ9XJSjbfjymp3xTo6wPzP1J0=
+			</data>
+		</dict>
+		<key>Headers/VIResourceLoadingRequestWorker.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AhFFE/HrMm6+nJ6cN2CIeLcmBmQGkWb/VsT4MbvGadg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
