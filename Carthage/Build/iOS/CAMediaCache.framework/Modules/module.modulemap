@@ -1,0 +1,6 @@
+framework module CAMediaCache {
+  umbrella header "CAMediaCache.h"
+
+  export *
+  module * { export * }
+}

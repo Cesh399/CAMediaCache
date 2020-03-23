@@ -1,0 +1,395 @@
+BCSymbolMap Version: 2.0
+-[VIURLSessionDelegateObject initWithDelegate:]
+-[VIURLSessionDelegateObject URLSession:didReceiveChallenge:completionHandler:]
+-[VIURLSessionDelegateObject URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[VIURLSessionDelegateObject URLSession:dataTask:didReceiveData:]
+-[VIURLSessionDelegateObject URLSession:task:didCompleteWithError:]
+-[VIURLSessionDelegateObject delegate]
+-[VIURLSessionDelegateObject setDelegate:]
+-[VIURLSessionDelegateObject bufferData]
+-[VIURLSessionDelegateObject setBufferData:]
+-[VIURLSessionDelegateObject .cxx_destruct]
+-[VIActionWorker dealloc]
+-[VIActionWorker initWithActions:url:cacheWorker:]
+-[VIActionWorker start]
+-[VIActionWorker cancel]
+-[VIActionWorker sessionDelegateObject]
+-[VIActionWorker session]
+-[VIActionWorker processActions]
+-[VIActionWorker notifyDownloadProgressWithFlush:finished:]
+-[VIActionWorker notifyDownloadFinishedWithError:]
+-[VIActionWorker URLSession:didReceiveChallenge:completionHandler:]
+-[VIActionWorker URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[VIActionWorker URLSession:dataTask:didReceiveData:]
+-[VIActionWorker URLSession:task:didCompleteWithError:]
+-[VIActionWorker actions]
+-[VIActionWorker setActions:]
+-[VIActionWorker canSaveToCache]
+-[VIActionWorker setCanSaveToCache:]
+-[VIActionWorker delegate]
+-[VIActionWorker setDelegate:]
+-[VIActionWorker isCancelled]
+-[VIActionWorker setCancelled:]
+-[VIActionWorker cacheWorker]
+-[VIActionWorker setCacheWorker:]
+-[VIActionWorker url]
+-[VIActionWorker setUrl:]
+-[VIActionWorker setSession:]
+-[VIActionWorker setSessionDelegateObject:]
+-[VIActionWorker task]
+-[VIActionWorker setTask:]
+-[VIActionWorker startOffset]
+-[VIActionWorker setStartOffset:]
+-[VIActionWorker notifyTime]
+-[VIActionWorker setNotifyTime:]
+-[VIActionWorker .cxx_destruct]
++[VIMediaDownloaderStatus shared]
+___33+[VIMediaDownloaderStatus shared]_block_invoke
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
+-[VIMediaDownloaderStatus addURL:]
+-[VIMediaDownloaderStatus removeURL:]
+-[VIMediaDownloaderStatus containsURL:]
+-[VIMediaDownloaderStatus urls]
+-[VIMediaDownloaderStatus downloadingURLS]
+-[VIMediaDownloaderStatus setDownloadingURLS:]
+-[VIMediaDownloaderStatus .cxx_destruct]
+-[VIMediaDownloader dealloc]
+-[VIMediaDownloader initWithURL:cacheWorker:]
+-[VIMediaDownloader downloadTaskFromOffset:length:toEnd:]
+-[VIMediaDownloader downloadFromStartToEnd]
+-[VIMediaDownloader cancel]
+-[VIMediaDownloader actionWorker:didReceiveResponse:]
+-[VIMediaDownloader actionWorker:didReceiveData:isLocal:]
+-[VIMediaDownloader actionWorker:didFinishWithError:]
+-[VIMediaDownloader url]
+-[VIMediaDownloader setUrl:]
+-[VIMediaDownloader delegate]
+-[VIMediaDownloader setDelegate:]
+-[VIMediaDownloader info]
+-[VIMediaDownloader setInfo:]
+-[VIMediaDownloader saveToCache]
+-[VIMediaDownloader setSaveToCache:]
+-[VIMediaDownloader task]
+-[VIMediaDownloader setTask:]
+-[VIMediaDownloader cacheWorker]
+-[VIMediaDownloader setCacheWorker:]
+-[VIMediaDownloader actionWorker]
+-[VIMediaDownloader setActionWorker:]
+-[VIMediaDownloader downloadToEnd]
+-[VIMediaDownloader setDownloadToEnd:]
+-[VIMediaDownloader .cxx_destruct]
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+_OBJC_IVAR_$_VIURLSessionDelegateObject._delegate
+_OBJC_IVAR_$_VIURLSessionDelegateObject._bufferData
+__OBJC_PROTOCOL_$_VIURLSessionDelegateObjectDelegate
+__OBJC_LABEL_PROTOCOL_$_VIURLSessionDelegateObjectDelegate
+_OBJC_IVAR_$_VIActionWorker._canSaveToCache
+_OBJC_IVAR_$_VIActionWorker._cancelled
+_OBJC_IVAR_$_VIActionWorker._actions
+_OBJC_IVAR_$_VIActionWorker._delegate
+_OBJC_IVAR_$_VIActionWorker._cacheWorker
+_OBJC_IVAR_$_VIActionWorker._url
+_OBJC_IVAR_$_VIActionWorker._session
+_OBJC_IVAR_$_VIActionWorker._sessionDelegateObject
+_OBJC_IVAR_$_VIActionWorker._task
+_OBJC_IVAR_$_VIActionWorker._startOffset
+_OBJC_IVAR_$_VIActionWorker._notifyTime
+_shared.instance
+_shared.onceToken
+___block_descriptor_40_e8__e5_v8?0l
+_OBJC_IVAR_$_VIMediaDownloaderStatus._downloadingURLS
+__OBJC_PROTOCOL_$_VIActionWorkerDelegate
+__OBJC_LABEL_PROTOCOL_$_VIActionWorkerDelegate
+_OBJC_IVAR_$_VIMediaDownloader._saveToCache
+_OBJC_IVAR_$_VIMediaDownloader._downloadToEnd
+_OBJC_IVAR_$_VIMediaDownloader._url
+_OBJC_IVAR_$_VIMediaDownloader._delegate
+_OBJC_IVAR_$_VIMediaDownloader._info
+_OBJC_IVAR_$_VIMediaDownloader._task
+_OBJC_IVAR_$_VIMediaDownloader._cacheWorker
+_OBJC_IVAR_$_VIMediaDownloader._actionWorker
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/ResourceLoader/VIMediaDownloader.m
+/Users/pictune/Downloads/Swift/CAMediaCache
+CAMediaCache/ResourceLoader/VIMediaDownloader.m
+CAMediaCache/ResourceLoader/VIMediaDownloader.h
+NSMakeRange
+Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+/Users/pictune/Downloads
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
+__33+[VIMediaDownloaderStatus shared]_block_invoke
+Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/dispatch/once.h
+-[VIContentInfo debugDescription]
+-[VIContentInfo encodeWithCoder:]
+-[VIContentInfo initWithCoder:]
+-[VIContentInfo contentType]
+-[VIContentInfo setContentType:]
+-[VIContentInfo byteRangeAccessSupported]
+-[VIContentInfo setByteRangeAccessSupported:]
+-[VIContentInfo contentLength]
+-[VIContentInfo setContentLength:]
+-[VIContentInfo downloadedContentLength]
+-[VIContentInfo setDownloadedContentLength:]
+-[VIContentInfo .cxx_destruct]
+__OBJC_PROTOCOL_$_NSCoding
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+_OBJC_IVAR_$_VIContentInfo._byteRangeAccessSupported
+_OBJC_IVAR_$_VIContentInfo._contentType
+_OBJC_IVAR_$_VIContentInfo._contentLength
+_OBJC_IVAR_$_VIContentInfo._downloadedContentLength
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/ResourceLoader/VIContentInfo.m
+CAMediaCache/ResourceLoader/VIContentInfo.m
+CAMediaCache/ResourceLoader/VIContentInfo.h
+-[VIMediaCacheWorker dealloc]
+-[VIMediaCacheWorker initWithURL:]
+-[VIMediaCacheWorker cacheConfiguration]
+-[VIMediaCacheWorker cacheData:forRange:error:]
+-[VIMediaCacheWorker cachedDataForRange:error:]
+-[VIMediaCacheWorker cachedDataActionsForRange:]
+___48-[VIMediaCacheWorker cachedDataActionsForRange:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+___48-[VIMediaCacheWorker cachedDataActionsForRange:]_block_invoke.99
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[VIMediaCacheWorker setContentInfo:error:]
+-[VIMediaCacheWorker save]
+-[VIMediaCacheWorker startWritting]
+-[VIMediaCacheWorker finishWritting]
+-[VIMediaCacheWorker applicationDidEnterBackground:]
+-[VIMediaCacheWorker setupError]
+-[VIMediaCacheWorker setSetupError:]
+-[VIMediaCacheWorker readFileHandle]
+-[VIMediaCacheWorker setReadFileHandle:]
+-[VIMediaCacheWorker writeFileHandle]
+-[VIMediaCacheWorker setWriteFileHandle:]
+-[VIMediaCacheWorker filePath]
+-[VIMediaCacheWorker setFilePath:]
+-[VIMediaCacheWorker internalCacheConfiguration]
+-[VIMediaCacheWorker setInternalCacheConfiguration:]
+-[VIMediaCacheWorker currentOffset]
+-[VIMediaCacheWorker setCurrentOffset:]
+-[VIMediaCacheWorker startWriteDate]
+-[VIMediaCacheWorker setStartWriteDate:]
+-[VIMediaCacheWorker writeBytes]
+-[VIMediaCacheWorker setWriteBytes:]
+-[VIMediaCacheWorker writting]
+-[VIMediaCacheWorker setWritting:]
+-[VIMediaCacheWorker .cxx_destruct]
+___block_descriptor_64_e8_32s_e24_v32?0"NSValue"8Q16^B24l
+___block_descriptor_72_e8_32s40s_e30_v32?0"VICacheAction"8Q16^B24l
+_OBJC_IVAR_$_VIMediaCacheWorker._writting
+_OBJC_IVAR_$_VIMediaCacheWorker._writeBytes
+_OBJC_IVAR_$_VIMediaCacheWorker._setupError
+_OBJC_IVAR_$_VIMediaCacheWorker._readFileHandle
+_OBJC_IVAR_$_VIMediaCacheWorker._writeFileHandle
+_OBJC_IVAR_$_VIMediaCacheWorker._filePath
+_OBJC_IVAR_$_VIMediaCacheWorker._internalCacheConfiguration
+_OBJC_IVAR_$_VIMediaCacheWorker._currentOffset
+_OBJC_IVAR_$_VIMediaCacheWorker._startWriteDate
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/Cache/VIMediaCacheWorker.m
+CAMediaCache/Cache/VIMediaCacheWorker.m
+CAMediaCache/Cache/VIMediaCacheWorker.h
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
+__48-[VIMediaCacheWorker cachedDataActionsForRange:]_block_invoke.99
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__48-[VIMediaCacheWorker cachedDataActionsForRange:]_block_invoke
++[VICacheSessionManager shared]
+___31+[VICacheSessionManager shared]_block_invoke
+-[VICacheSessionManager init]
+-[VICacheSessionManager downloadQueue]
+-[VICacheSessionManager setDownloadQueue:]
+-[VICacheSessionManager .cxx_destruct]
+_OBJC_IVAR_$_VICacheSessionManager._downloadQueue
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/Cache/VICacheSessionManager.m
+CAMediaCache/Cache/VICacheSessionManager.m
+CAMediaCache/Cache/VICacheSessionManager.h
+__31+[VICacheSessionManager shared]_block_invoke
+-[VIResourceLoader dealloc]
+-[VIResourceLoader initWithURL:]
+-[VIResourceLoader init]
+-[VIResourceLoader addRequest:]
+-[VIResourceLoader removeRequest:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___34-[VIResourceLoader removeRequest:]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[VIResourceLoader cancel]
+-[VIResourceLoader resourceLoadingRequestWorker:didCompleteWithError:]
+-[VIResourceLoader startNoCacheWorkerWithRequest:]
+-[VIResourceLoader startWorkerWithRequest:]
+-[VIResourceLoader loaderCancelledError]
+-[VIResourceLoader url]
+-[VIResourceLoader setUrl:]
+-[VIResourceLoader delegate]
+-[VIResourceLoader setDelegate:]
+-[VIResourceLoader cacheWorker]
+-[VIResourceLoader setCacheWorker:]
+-[VIResourceLoader mediaDownloader]
+-[VIResourceLoader setMediaDownloader:]
+-[VIResourceLoader pendingRequestWorkers]
+-[VIResourceLoader setPendingRequestWorkers:]
+-[VIResourceLoader isCancelled]
+-[VIResourceLoader setCancelled:]
+-[VIResourceLoader .cxx_destruct]
+___block_descriptor_48_e8_32s40r_e47_v32?0"VIResourceLoadingRequestWorker"8Q16^B24l
+__OBJC_PROTOCOL_$_VIResourceLoadingRequestWorkerDelegate
+__OBJC_LABEL_PROTOCOL_$_VIResourceLoadingRequestWorkerDelegate
+_OBJC_IVAR_$_VIResourceLoader._cancelled
+_OBJC_IVAR_$_VIResourceLoader._url
+_OBJC_IVAR_$_VIResourceLoader._delegate
+_OBJC_IVAR_$_VIResourceLoader._cacheWorker
+_OBJC_IVAR_$_VIResourceLoader._mediaDownloader
+_OBJC_IVAR_$_VIResourceLoader._pendingRequestWorkers
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/ResourceLoader/VIResourceLoader.m
+CAMediaCache/ResourceLoader/VIResourceLoader.m
+CAMediaCache/ResourceLoader/VIResourceLoader.h
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__34-[VIResourceLoader removeRequest:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[VIResourceLoadingRequestWorker initWithMediaDownloader:resourceLoadingRequest:]
+-[VIResourceLoadingRequestWorker startWork]
+-[VIResourceLoadingRequestWorker cancel]
+-[VIResourceLoadingRequestWorker finish]
+-[VIResourceLoadingRequestWorker loaderCancelledError]
+-[VIResourceLoadingRequestWorker fullfillContentInfo]
+-[VIResourceLoadingRequestWorker mediaDownloader:didReceiveResponse:]
+-[VIResourceLoadingRequestWorker mediaDownloader:didReceiveData:]
+-[VIResourceLoadingRequestWorker mediaDownloader:didFinishedWithError:]
+-[VIResourceLoadingRequestWorker delegate]
+-[VIResourceLoadingRequestWorker setDelegate:]
+-[VIResourceLoadingRequestWorker request]
+-[VIResourceLoadingRequestWorker setRequest:]
+-[VIResourceLoadingRequestWorker mediaDownloader]
+-[VIResourceLoadingRequestWorker setMediaDownloader:]
+-[VIResourceLoadingRequestWorker .cxx_destruct]
+__OBJC_PROTOCOL_$_VIMediaDownloaderDelegate
+__OBJC_LABEL_PROTOCOL_$_VIMediaDownloaderDelegate
+_OBJC_IVAR_$_VIResourceLoadingRequestWorker._delegate
+_OBJC_IVAR_$_VIResourceLoadingRequestWorker._request
+_OBJC_IVAR_$_VIResourceLoadingRequestWorker._mediaDownloader
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.m
+CAMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.m
+CAMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.h
+-[VICacheAction initWithActionType:range:]
+-[VICacheAction isEqual:]
+-[VICacheAction hash]
+-[VICacheAction description]
+-[VICacheAction actionType]
+-[VICacheAction setActionType:]
+-[VICacheAction range]
+-[VICacheAction setRange:]
+_OBJC_IVAR_$_VICacheAction._actionType
+_OBJC_IVAR_$_VICacheAction._range
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/Cache/VICacheAction.m
+CAMediaCache/Cache/VICacheAction.h
+CAMediaCache/Cache/VICacheAction.m
+NSEqualRanges
++[VICacheManager load]
+___22+[VICacheManager load]_block_invoke
++[VICacheManager setCacheDirectory:]
++[VICacheManager cacheDirectory]
++[VICacheManager setCacheUpdateNotifyInterval:]
++[VICacheManager cacheUpdateNotifyInterval]
++[VICacheManager setFileNameRules:]
++[VICacheManager cachedFilePathForURL:]
++[VICacheManager cacheConfigurationForURL:]
++[VICacheManager calculateCachedSizeWithError:]
++[VICacheManager cleanAllCacheWithError:]
+___41+[VICacheManager cleanAllCacheWithError:]_block_invoke
+___copy_helper_block_e8_40s
+___destroy_helper_block_e8_40s
++[VICacheManager cleanCacheForURL:error:]
++[VICacheManager addCacheFile:forURL:error:]
+_load.onceToken
+_kMCMediaCacheDirectory
+_kMCMediaCacheNotifyInterval
+_kMCFileNameRules
+___block_descriptor_48_e8_40s_e19_v24?0"NSURL"8^B16l
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/Cache/VICacheManager.m
+CAMediaCache/Cache/VICacheManager.m
+__destroy_helper_block_e8_40s
+__copy_helper_block_e8_40s
+__41+[VICacheManager cleanAllCacheWithError:]_block_invoke
+__22+[VICacheManager load]_block_invoke
++[VICacheConfiguration configurationWithFilePath:]
++[VICacheConfiguration configurationFilePathForFilePath:]
+-[VICacheConfiguration internalCacheFragments]
+-[VICacheConfiguration downloadInfo]
+-[VICacheConfiguration cacheFragments]
+-[VICacheConfiguration progress]
+-[VICacheConfiguration downloadedBytes]
+-[VICacheConfiguration downloadSpeed]
+-[VICacheConfiguration encodeWithCoder:]
+-[VICacheConfiguration initWithCoder:]
+-[VICacheConfiguration copyWithZone:]
+-[VICacheConfiguration save]
+-[VICacheConfiguration addCacheFragment:]
+___41-[VICacheConfiguration addCacheFragment:]_block_invoke
+-[VICacheConfiguration addDownloadedBytes:spent:]
+-[VICacheConfiguration filePath]
+-[VICacheConfiguration setFilePath:]
+-[VICacheConfiguration contentInfo]
+-[VICacheConfiguration setContentInfo:]
+-[VICacheConfiguration url]
+-[VICacheConfiguration setUrl:]
+-[VICacheConfiguration fileName]
+-[VICacheConfiguration setFileName:]
+-[VICacheConfiguration setInternalCacheFragments:]
+-[VICacheConfiguration setDownloadInfo:]
+-[VICacheConfiguration .cxx_destruct]
++[VICacheConfiguration(VIConvenient) createAndSaveDownloadedConfigurationForURL:error:]
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+_OBJC_IVAR_$_VICacheConfiguration._filePath
+_OBJC_IVAR_$_VICacheConfiguration._contentInfo
+_OBJC_IVAR_$_VICacheConfiguration._url
+_OBJC_IVAR_$_VICacheConfiguration._fileName
+_OBJC_IVAR_$_VICacheConfiguration._internalCacheFragments
+_OBJC_IVAR_$_VICacheConfiguration._downloadInfo
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/Cache/VICacheConfiguration.m
+CAMediaCache/Cache/VICacheConfiguration.m
+CAMediaCache/Cache/VICacheConfiguration.h
+__41-[VICacheConfiguration addCacheFragment:]_block_invoke
+-[VIResourceLoaderManager init]
+-[VIResourceLoaderManager cleanCache]
+-[VIResourceLoaderManager cancelLoaders]
+___40-[VIResourceLoaderManager cancelLoaders]_block_invoke
+-[VIResourceLoaderManager resourceLoader:shouldWaitForLoadingOfRequestedResource:]
+-[VIResourceLoaderManager resourceLoader:didCancelLoadingRequest:]
+-[VIResourceLoaderManager resourceLoader:didFailWithError:]
+-[VIResourceLoaderManager keyForResourceLoaderWithURL:]
+-[VIResourceLoaderManager loaderForRequest:]
+-[VIResourceLoaderManager delegate]
+-[VIResourceLoaderManager setDelegate:]
+-[VIResourceLoaderManager loaders]
+-[VIResourceLoaderManager setLoaders:]
+-[VIResourceLoaderManager .cxx_destruct]
++[VIResourceLoaderManager(Convenient) assetURLWithURL:]
+-[VIResourceLoaderManager(Convenient) playerItemWithURL:]
+___block_descriptor_32_e45_v32?0"<NSCoding>"8"VIResourceLoader"16^B24l
+___block_literal_global
+__OBJC_PROTOCOL_$_VIResourceLoaderDelegate
+__OBJC_LABEL_PROTOCOL_$_VIResourceLoaderDelegate
+__OBJC_PROTOCOL_$_AVAssetResourceLoaderDelegate
+__OBJC_LABEL_PROTOCOL_$_AVAssetResourceLoaderDelegate
+_OBJC_IVAR_$_VIResourceLoaderManager._delegate
+_OBJC_IVAR_$_VIResourceLoaderManager._loaders
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/ResourceLoader/VIResourceLoaderManager.m
+CAMediaCache/ResourceLoader/VIResourceLoaderManager.m
+CAMediaCache/ResourceLoader/VIResourceLoaderManager.h
+__40-[VIResourceLoaderManager cancelLoaders]_block_invoke
+-[NSString(VIMD5) vi_md5]
+/Users/pictune/Downloads/Swift/CAMediaCache/CAMediaCache/Cache/NSString+VIMD5.m
+CAMediaCache/Cache/NSString+VIMD5.m
+/Users/pictune/Library/Developer/Xcode/DerivedData/CAMediaCache-ewynzuxasotsnjbmnttwskjwpfdc/Build/Intermediates.noindex/ArchiveIntermediates/CAMediaCache/IntermediateBuildFilesPath/CAMediaCache.build/Release-iphoneos/CAMediaCache.build/DerivedSources/CAMediaCache_vers.c

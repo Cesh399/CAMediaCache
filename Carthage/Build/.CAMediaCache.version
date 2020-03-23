@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "f5f6802057b9389d3ca51e118eb1288c4b03ce46",
+  "iOS" : [
+    {
+      "name" : "CAMediaCache",
+      "hash" : "4bc0e07614f43e2ecdb49872a77d36b2a140cb6800b3885b646f15a659cf6ce9"
+    }
+  ]
+}
