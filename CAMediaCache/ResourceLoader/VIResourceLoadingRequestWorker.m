@@ -88,6 +88,7 @@
 
 - (void)mediaDownloader:(VIMediaDownloader *)downloader didReceiveData:(NSData *)data {
     [self.request.dataRequest respondWithData:data];
+    NSLog(@"received data: %ld",(long)data.length);
 }
 
 - (void)mediaDownloader:(VIMediaDownloader *)downloader didFinishedWithError:(NSError *)error {
