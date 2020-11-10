@@ -38,15 +38,15 @@
 		</data>
 		<key>Headers/VIMediaDownloader.h</key>
 		<data>
-		+XwCR9f9hBbPbnRt5fIhYylx2o4=
+		k21B653hG/fZ3UqaNiFl06rkKaw=
 		</data>
 		<key>Headers/VIResourceLoader.h</key>
 		<data>
-		PVAzlpYs8Lz+UWMP17Cu4w7dUA8=
+		1otm2rFMYOo1mHia3wVfwMMkWjk=
 		</data>
 		<key>Headers/VIResourceLoaderManager.h</key>
 		<data>
-		XLJ9Wdf3t7KWOH7BCvqlLYp1SUk=
+		VCjRfkfWjE1jkYPz9gpQVtE2sq4=
 		</data>
 		<key>Headers/VIResourceLoadingRequestWorker.h</key>
 		<data>
@@ -54,39 +54,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4oyRn3nOVSVrMg3EwE36//788a0=
+		qR90Mq5Z8W28TKINR0VYdH9WKI8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		ki8GKyeIuzl2TdQlQOh5DDalipI=
-		</data>
-		<key>PrivateHeaders/NSString+VIMD5.h</key>
-		<data>
-		C78rQURxQQaAt37dC/wv2vDhP7A=
-		</data>
-		<key>PrivateHeaders/VICacheAction.h</key>
-		<data>
-		wtlyOOGwNk8OQSqJQGbzqdlSxto=
-		</data>
-		<key>PrivateHeaders/VICacheConfiguration.h</key>
-		<data>
-		USlbV6P2O5/ERzSDeOAC0qKcTq8=
-		</data>
-		<key>PrivateHeaders/VICacheSessionManager.h</key>
-		<data>
-		WjLZdzOseWShANfTEcUdghmaG1g=
-		</data>
-		<key>PrivateHeaders/VIMediaCacheWorker.h</key>
-		<data>
-		VorpDgrhlPco1T0SdEXBB1FviBs=
-		</data>
-		<key>PrivateHeaders/VIResourceLoader.h</key>
-		<data>
-		PVAzlpYs8Lz+UWMP17Cu4w7dUA8=
-		</data>
-		<key>PrivateHeaders/VIResourceLoadingRequestWorker.h</key>
-		<data>
-		QaHsl8lMRCQx+llCgOmYO3VxJp8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -151,21 +123,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3oH+zxsJOEPnZ+QVoTXoW9vqTuiSQ4YkwpVRr4qGEzM=
+			RxnasWCQwWKUeU5QQCJbiehEA2+tIccEQA2I+6JnJkE=
 			</data>
 		</dict>
 		<key>Headers/VIResourceLoader.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3jGtAxDz9pdVDDBLDboZrevK7qRJw3Xoo1pyx2AVlWQ=
+			qLwrAQiqb7LNdp5hRyG4XS3MeSos8fn+C4QGPvFs1WA=
 			</data>
 		</dict>
 		<key>Headers/VIResourceLoaderManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Umz7p/8sMxARarGXxgOZ9XJSjbfjymp3xTo6wPzP1J0=
+			9RNYzUPrsek8PU/tXxwksZtnl0EWYtnrMnIpwYesl+8=
 			</data>
 		</dict>
 		<key>Headers/VIResourceLoadingRequestWorker.h</key>
@@ -180,55 +152,6 @@
 			<key>hash2</key>
 			<data>
 			dnsMb2T/ehJMSXUijYH5HKQp6yY3JSi1/3uT6omWU6w=
-			</data>
-		</dict>
-		<key>PrivateHeaders/NSString+VIMD5.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xYZzF6+ZRwAeRJnarUvofVs9rsGzbU4YVrXSVerG4RM=
-			</data>
-		</dict>
-		<key>PrivateHeaders/VICacheAction.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FKYlP1vGQi8Ddw/AV3Bd0sx5AbIGu+IZbVtPLK/XQD8=
-			</data>
-		</dict>
-		<key>PrivateHeaders/VICacheConfiguration.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PCcvp3o6D56j4i5QkdcrxCETiGYem4Dz9Rgq1xEydmI=
-			</data>
-		</dict>
-		<key>PrivateHeaders/VICacheSessionManager.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			awzO349jrA8xU6JHfbTukFLPntb2IM3Rlr0oDW58PQM=
-			</data>
-		</dict>
-		<key>PrivateHeaders/VIMediaCacheWorker.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wIreseOhpMPhEV7E460wqtvj7+KJmtHu1SOFqG234HU=
-			</data>
-		</dict>
-		<key>PrivateHeaders/VIResourceLoader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3jGtAxDz9pdVDDBLDboZrevK7qRJw3Xoo1pyx2AVlWQ=
-			</data>
-		</dict>
-		<key>PrivateHeaders/VIResourceLoadingRequestWorker.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AhFFE/HrMm6+nJ6cN2CIeLcmBmQGkWb/VsT4MbvGadg=
 			</data>
 		</dict>
 	</dict>

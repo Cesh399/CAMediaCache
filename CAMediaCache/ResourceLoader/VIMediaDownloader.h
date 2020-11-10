@@ -29,8 +29,9 @@
 
 @interface VIMediaDownloader : NSObject
 
-- (instancetype)initWithURL:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker;
+- (instancetype)initWithURL:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker authentication:(NSString *)authentication;
 @property (nonatomic, strong, readonly) NSURL *url;
+@property (nonatomic, strong, readonly) NSString *authentication;
 @property (nonatomic, weak) id<VIMediaDownloaderDelegate> delegate;
 @property (nonatomic, strong) VIContentInfo *info;
 @property (nonatomic, assign) BOOL saveToCache;

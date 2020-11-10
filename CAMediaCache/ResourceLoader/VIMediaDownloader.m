@@ -105,7 +105,7 @@ didCompleteWithError:(nullable NSError *)error {
 @interface VIActionWorker : NSObject <VIURLSessionDelegateObjectDelegate>
 
 @property (nonatomic, strong) NSMutableArray<VICacheAction *> *actions;
-- (instancetype)initWithActions:(NSArray<VICacheAction *> *)actions url:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker;
+- (instancetype)initWithActions:(NSArray<VICacheAction *> *)actions url:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker authentication:(NSString *)authentication;
 
 @property (nonatomic, assign) BOOL canSaveToCache;
 @property (nonatomic, weak) id<VIActionWorkerDelegate> delegate;
@@ -118,6 +118,7 @@ didCompleteWithError:(nullable NSError *)error {
 
 @property (nonatomic, strong) VIMediaCacheWorker *cacheWorker;
 @property (nonatomic, strong) NSURL *url;
+@property (nonatomic, strong) NSString *authentication;
 
 @property (nonatomic, strong) NSURLSession *session;
 @property (nonatomic, strong) VIURLSessionDelegateObject *sessionDelegateObject;
@@ -138,13 +139,14 @@ didCompleteWithError:(nullable NSError *)error {
     [self cancel];
 }
 
-- (instancetype)initWithActions:(NSArray<VICacheAction *> *)actions url:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker {
+- (instancetype)initWithActions:(NSArray<VICacheAction *> *)actions url:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker authentication:(NSString *)authentication {
     self = [super init];
     if (self) {
         _canSaveToCache = YES;
         _actions = [actions mutableCopy];
         _cacheWorker = cacheWorker;
         _url = url;
+        _authentication = authentication;
     }
     return self;
 }
@@ -211,6 +213,7 @@ didCompleteWithError:(nullable NSError *)error {
         request.cachePolicy = NSURLRequestReloadIgnoringLocalAndRemoteCacheData;
         NSString *range = [NSString stringWithFormat:@"bytes=%lld-%lld", fromOffset, endOffset];
         [request setValue:range forHTTPHeaderField:@"Range"];
+        [request setValue:_authentication forHTTPHeaderField:@"Authorization"];
         self.startOffset = action.range.location;
         self.task = [self.session dataTaskWithRequest:request];
         [self.task resume];
@@ -373,6 +376,7 @@ didCompleteWithError:(nullable NSError *)error {
 @interface VIMediaDownloader () <VIActionWorkerDelegate>
 
 @property (nonatomic, strong) NSURL *url;
+@property (nonatomic, strong) NSString *authentication;
 @property (nonatomic, strong) NSURLSessionDataTask *task;
 
 @property (nonatomic, strong) VIMediaCacheWorker *cacheWorker;
@@ -388,7 +392,7 @@ didCompleteWithError:(nullable NSError *)error {
     [[VIMediaDownloaderStatus shared] removeURL:self.url];
 }
 
-- (instancetype)initWithURL:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker {
+- (instancetype)initWithURL:(NSURL *)url cacheWorker:(VIMediaCacheWorker *)cacheWorker authentication:(NSString *)authentication {
     self = [super init];
     if (self) {
         _saveToCache = YES;
@@ -396,6 +400,7 @@ didCompleteWithError:(nullable NSError *)error {
         _cacheWorker = cacheWorker;
         _info = _cacheWorker.cacheConfiguration.contentInfo;
         [[VIMediaDownloaderStatus shared] addURL:self.url];
+        _authentication = authentication;
     }
     return self;
 }
@@ -412,7 +417,7 @@ didCompleteWithError:(nullable NSError *)error {
     
     NSArray *actions = [self.cacheWorker cachedDataActionsForRange:range];
 
-    self.actionWorker = [[VIActionWorker alloc] initWithActions:actions url:self.url cacheWorker:self.cacheWorker];
+    self.actionWorker = [[VIActionWorker alloc] initWithActions:actions url:self.url cacheWorker:self.cacheWorker authentication:_authentication];
     self.actionWorker.canSaveToCache = self.saveToCache;
     self.actionWorker.delegate = self;
     [self.actionWorker start];
@@ -424,7 +429,7 @@ didCompleteWithError:(nullable NSError *)error {
     NSRange range = NSMakeRange(0, 2);
     NSArray *actions = [self.cacheWorker cachedDataActionsForRange:range];
 
-    self.actionWorker = [[VIActionWorker alloc] initWithActions:actions url:self.url cacheWorker:self.cacheWorker];
+    self.actionWorker = [[VIActionWorker alloc] initWithActions:actions url:self.url cacheWorker:self.cacheWorker authentication:_authentication];
     self.actionWorker.canSaveToCache = self.saveToCache;
     self.actionWorker.delegate = self;
     [self.actionWorker start];
