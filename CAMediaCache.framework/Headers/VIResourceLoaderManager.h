@@ -37,6 +37,6 @@
 @interface VIResourceLoaderManager (Convenient)
 
 + (NSURL *)assetURLWithURL:(NSURL *)url;
-- (AVPlayerItem *)playerItemWithURL:(NSURL *)url authorizationForAsset:(NSString *)authorization;
+- (AVPlayerItem *)playerItemWithURL:(NSURL *)url;
 
 @end

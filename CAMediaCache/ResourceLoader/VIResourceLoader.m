@@ -17,7 +17,6 @@ NSString * const MCResourceLoaderErrorDomain = @"LSFilePlayerResourceLoaderError
 @interface VIResourceLoader () <VIResourceLoadingRequestWorkerDelegate>
 
 @property (nonatomic, strong, readwrite) NSURL *url;
-@property (nonatomic, strong, readwrite) NSString *authentication;
 @property (nonatomic, strong) VIMediaCacheWorker *cacheWorker;
 @property (nonatomic, strong) VIMediaDownloader *mediaDownloader;
 @property (nonatomic, strong) NSMutableArray<VIResourceLoadingRequestWorker *> *pendingRequestWorkers;
@@ -33,14 +32,13 @@ NSString * const MCResourceLoaderErrorDomain = @"LSFilePlayerResourceLoaderError
     [_mediaDownloader cancel];
 }
 
-- (instancetype)initWithURL:(NSURL *)url authentication:(NSString *)authentication {
+- (instancetype)initWithURL:(NSURL *)url {
     self = [super init];
     if (self) {
         _url = url;
         _cacheWorker = [[VIMediaCacheWorker alloc] initWithURL:url];
-        _mediaDownloader = [[VIMediaDownloader alloc] initWithURL:url cacheWorker:_cacheWorker authentication:_authentication];
+        _mediaDownloader = [[VIMediaDownloader alloc] initWithURL:url cacheWorker:_cacheWorker];
         _pendingRequestWorkers = [NSMutableArray array];
-        _authentication = authentication;
     }
     return self;
 }
@@ -95,7 +93,7 @@ NSString * const MCResourceLoaderErrorDomain = @"LSFilePlayerResourceLoaderError
 
 - (void)startNoCacheWorkerWithRequest:(AVAssetResourceLoadingRequest *)request {
     [[VIMediaDownloaderStatus shared] addURL:self.url];
-    VIMediaDownloader *mediaDownloader = [[VIMediaDownloader alloc] initWithURL:self.url cacheWorker:self.cacheWorker authentication:_authentication];
+    VIMediaDownloader *mediaDownloader = [[VIMediaDownloader alloc] initWithURL:self.url cacheWorker:self.cacheWorker];
     VIResourceLoadingRequestWorker *requestWorker = [[VIResourceLoadingRequestWorker alloc] initWithMediaDownloader:mediaDownloader
                                                                                              resourceLoadingRequest:request];
     [self.pendingRequestWorkers addObject:requestWorker];

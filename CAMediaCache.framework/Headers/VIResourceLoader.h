@@ -13,10 +13,9 @@
 @interface VIResourceLoader : NSObject
 
 @property (nonatomic, strong, readonly) NSURL *url;
-@property (nonatomic, strong, readonly) NSString *authentication;
 @property (nonatomic, weak) id<VIResourceLoaderDelegate> delegate;
 
-- (instancetype)initWithURL:(NSURL *)url authentication:(NSString *)authentication;
+- (instancetype)initWithURL:(NSURL *)url;
 
 - (void)addRequest:(AVAssetResourceLoadingRequest *)request;
 - (void)removeRequest:(AVAssetResourceLoadingRequest *)request;

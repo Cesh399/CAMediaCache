@@ -42,14 +42,6 @@ static NSString *kCacheScheme = @"__VIMediaCache___:";
 
 - (BOOL)resourceLoader:(AVAssetResourceLoader *)resourceLoader shouldWaitForLoadingOfRequestedResource:(AVAssetResourceLoadingRequest *)loadingRequest  {
     NSURL *resourceURL = [loadingRequest.request URL];
-    NSString *urlString = resourceURL.absoluteString;
-    NSRange range = [urlString rangeOfString:@"?" options:NSBackwardsSearch];
-    NSString *finalURLString = [urlString substringToIndex:range.location];
-    NSURL *finalURL = [NSURL URLWithString:finalURLString];
-    NSString *token = [urlString substringFromIndex:(range.location+1)];
-    NSString *authorization = [@"Bearer " stringByAppendingString:token];
-    NSLog(@"final url: %s",finalURL);
-    NSLog(@"auth: %s",authorization);
     if ([resourceURL.absoluteString hasPrefix:kCacheScheme]) {
         VIResourceLoader *loader = [self loaderForRequest:loadingRequest];
         if (!loader) {
@@ -57,9 +49,9 @@ static NSString *kCacheScheme = @"__VIMediaCache___:";
             NSString *originStr = [resourceURL absoluteString];
             originStr = [originStr stringByReplacingOccurrencesOfString:kCacheScheme withString:@""];
             originURL = [NSURL URLWithString:originStr];
-            loader = [[VIResourceLoader alloc] initWithURL:finalURL authentication: authorization];
+            loader = [[VIResourceLoader alloc] initWithURL:originURL];
             loader.delegate = self;
-            NSString *key = [self keyForResourceLoaderWithURL:finalURL];
+            NSString *key = [self keyForResourceLoaderWithURL:resourceURL];
             self.loaders[key] = loader;
         }
         [loader addRequest:loadingRequest];
@@ -112,9 +104,9 @@ static NSString *kCacheScheme = @"__VIMediaCache___:";
     return assetURL;
 }
 
-- (AVPlayerItem *)playerItemWithURL:(NSURL *)url authorizationForAsset:(NSString *)authorization {
+- (AVPlayerItem *)playerItemWithURL:(NSURL *)url {
     NSURL *assetURL = [VIResourceLoaderManager assetURLWithURL:url];
-    AVURLAsset *urlAsset = [AVURLAsset URLAssetWithURL:assetURL options:@{@"AVURLAssetHTTPHeaderFieldsKey": @{@"Authorization" : authorization}}];
+    AVURLAsset *urlAsset = [AVURLAsset URLAssetWithURL:assetURL options:nil];
     [urlAsset.resourceLoader setDelegate:self queue:dispatch_get_main_queue()];
     AVPlayerItem *playerItem = [AVPlayerItem playerItemWithAsset:urlAsset];
     if ([playerItem respondsToSelector:@selector(setCanUseNetworkResourcesForLiveStreamingWhilePaused:)]) {
